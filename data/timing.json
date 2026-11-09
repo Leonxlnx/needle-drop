@@ -1,0 +1,152 @@
+{
+ "fps": 24,
+ "bpm": 120,
+ "total_frames": 720,
+ "rendered_frames": [
+  1,
+  708
+ ],
+ "sets": {
+  "A": [
+   1,
+   120
+  ],
+  "B": [
+   121,
+   288
+  ],
+  "C": [
+   289,
+   708
+  ]
+ },
+ "shots": {
+  "S1": [
+   1,
+   120
+  ],
+  "S2": [
+   121,
+   288
+  ],
+  "S3": [
+   289,
+   432
+  ],
+  "S4": [
+   433,
+   516
+  ],
+  "S5": [
+   517,
+   624
+  ],
+  "S6": [
+   625,
+   708
+  ]
+ },
+ "events": {
+  "fade_in_end": {
+   "t": 0.25,
+   "frame": 7
+  },
+  "lint_pass": {
+   "t": 2.0,
+   "frame": 49
+  },
+  "spire_visible": {
+   "t": 2.6,
+   "frame": 63
+  },
+  "vault_start": {
+   "t": 4,
+   "frame": 97
+  },
+  "crest": {
+   "t": 4.75,
+   "frame": 115
+  },
+  "hidden_cut": {
+   "t": 5,
+   "frame": 121
+  },
+  "filter_opens": {
+   "t": 6,
+   "frame": 145
+  },
+  "hold_start": {
+   "t": 7.5,
+   "frame": 181
+  },
+  "focus_rack": {
+   "t": 9,
+   "frame": 217
+  },
+  "capture_start": {
+   "t": 10,
+   "frame": 241
+  },
+  "match_cut": {
+   "t": 12,
+   "frame": 289
+  },
+  "riser_start": {
+   "t": 14,
+   "frame": 337
+  },
+  "grains_lift": {
+   "t": 17,
+   "frame": 409
+  },
+  "silence": {
+   "t": 17.5,
+   "frame": 421
+  },
+  "drop": {
+   "t": 18,
+   "frame": 433
+  },
+  "front_passes_lens": {
+   "t": 19,
+   "frame": 457
+  },
+  "pulses_start": {
+   "t": 20,
+   "frame": 481
+  },
+  "crane": {
+   "t": 21.5,
+   "frame": 517
+  },
+  "disc_spin": {
+   "t": 24,
+   "frame": 577
+  },
+  "topdown_hold": {
+   "t": 24.5,
+   "frame": 589
+  },
+  "shadow_enters": {
+   "t": 25.5,
+   "frame": 613
+  },
+  "tilt_up": {
+   "t": 26.75,
+   "frame": 643
+  },
+  "push": {
+   "t": 28.25,
+   "frame": 679
+  },
+  "touchdown": {
+   "t": 29,
+   "frame": 697
+  },
+  "black": {
+   "t": 29.5,
+   "frame": 709
+  }
+ },
+ "note": "Event frames snapped by the audio stage to detected beats of audio/music_edit.wav (120.000 BPM, drop downbeat measured at 17.999 s). frame = round(t*24)+1. Snapped: lint_pass 47->49, shadow_enters 615->613."
+}

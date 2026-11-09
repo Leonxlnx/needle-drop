@@ -1,0 +1,146 @@
+{
+ "units": "metres",
+ "centre": [
+  0,
+  0,
+  0
+ ],
+ "sun": {
+  "from": "+Y",
+  "elevation_deg": 9.0,
+  "angle_deg": 0.6
+ },
+ "bearing_s3_s4_deg": 0.0,
+ "radii": {
+  "crater": 25.0,
+  "label": 240.0,
+  "groove": [
+   270.0,
+   1160.0
+  ],
+  "leadin": [
+   1160.0,
+   1170.0
+  ],
+  "trench": [
+   1170.0,
+   1200.0
+  ],
+  "disc_mesh_end": 1200.0
+ },
+ "ring_pitch": 40.0,
+ "crest_h": 11.0,
+ "label_mesa_h": 40.0,
+ "tonearm": {
+  "pivot_r_bearing": [
+   1720.0,
+   145.0
+  ],
+  "landing_r_bearing": [
+   1150.0,
+   66.0
+  ],
+  "arm_len": 1880.0,
+  "pivot_xy": [
+   -1408.941516177066,
+   986.551470523799
+  ],
+  "landing_xy": [
+   467.74713953717026,
+   1050.577276288991
+  ]
+ },
+ "desert_marble": {
+  "field_vector": "rotZ(angle) * (x_obj, y_obj, 0) * scale + offset  -> nd_lib.build_marble_field(scale=1)",
+  "scale": 0.001578855,
+  "angle": 0.093215,
+  "offset": [
+   -2.267505,
+   -0.211979,
+   0.018
+  ],
+  "freq": 4.4,
+  "note": "S2 match cut: set B may publish data/handoff.json {\"set_c_marble\": {...}} and set C rebuilds to match."
+ },
+ "s3_first_frame": {
+  "frame": 289,
+  "cam": [
+   880,
+   0,
+   380
+  ],
+  "look": "straight down",
+  "screen_up_world": "+X",
+  "screen_right_world": "-Y",
+  "lens_mm": 28,
+  "frame_width_m": 488.6
+ },
+ "tonearm_asset_used": true,
+ "tonearm_rig": {
+  "append": "blend/tonearm_asset.blend collection TonearmAsset, appended as real objects (renamed TonearmGiant), ArmPivot parented to ArmLift, rot Z +90 deg, scale ARM_LEN/0.235 = 8000",
+  "pivot_height_m": 161.59999084472656,
+  "cheats": {
+   "Stylus": [
+    9.0,
+    9.0,
+    9.0
+   ],
+   "Cantilever": [
+    4.5,
+    4.5,
+    1.5
+   ],
+   "CantDamper": [
+    2.6,
+    2.6,
+    1.5
+   ]
+  },
+  "yaw_swing_s": [
+   25.25,
+   26.75
+  ],
+  "yaw_ease": "ease-out 1-(1-s)^2.2",
+  "lift_s": [
+   26.75,
+   29.0
+  ],
+  "touchdown_frame": 697
+ },
+ "fx": {
+  "FloatGrains": 6500,
+  "FrontDust": 14000,
+  "FrontSheet": 6000,
+  "DropGeyser": 2200,
+  "FrontEngulf": 1100,
+  "EngulfStreaks": 2174,
+  "FrontGrains": 14000,
+  "TouchdownSkirt": 900,
+  "TouchdownDust": 6000,
+  "TouchdownSpray": 1400,
+  "TouchdownGrains": 2600,
+  "TouchSurge": 3000,
+  "TouchFan": 900,
+  "TipGlint": 42,
+  "TouchdownGlow": "LIGHT",
+  "Curtain0": 17280,
+  "Curtain1": 17280,
+  "Curtain2": 17280,
+  "TouchRing0": 2048,
+  "TouchRing1": 2048
+ },
+ "s6_end_camera": {
+  "pos_xy": [
+   890.0,
+   530.0
+  ],
+  "alt": 45.0,
+  "heading": 145.0,
+  "pitch": 1.5,
+  "lens": 26.0,
+  "phi_d": [
+   129.04634714461864,
+   670.2970824623261
+  ]
+ }
+}

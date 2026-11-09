@@ -1,0 +1,139 @@
+{
+ "S1_end": {
+  "note": "Set A camera, last 3 frames (118-120). forward/up are world unit vectors in Set A space (Z up, +X along the groove; the cantilever axis heads 100 deg CCW from +X). screen_velocity_per_frame = motion of the world point under frame centre, in normalised frame units (x right, y up) per frame. Camera rides just above and behind the front of the brushed-aluminium cantilever looking along it (pitched ~8 deg down, rising with it); the tube is a bright neutral-silver wedge rising from bottom-centre with a thin cream streak and magenta / ultramarine side streaks.",
+  "lens_mm": 18.0,
+  "fps": 24,
+  "frames": [
+   {
+    "frame": 118,
+    "forward": [
+     -0.17721,
+     0.97861,
+     -0.10453
+    ],
+    "up": [
+     -0.00351,
+     0.10558,
+     0.9944
+    ],
+    "position": [
+     298.218,
+     413.481,
+     161.8
+    ],
+    "centre_hit": "Cantilever",
+    "centre_dist_m": 26.47,
+    "screen_velocity_per_frame": [
+     0.0018,
+     -0.07015
+    ]
+   },
+   {
+    "frame": 119,
+    "forward": [
+     -0.17676,
+     0.97612,
+     -0.12625
+    ],
+    "up": [
+     0.02301,
+     0.13233,
+     0.99094
+    ],
+    "position": [
+     297.414,
+     417.928,
+     163.577
+    ],
+    "centre_hit": "Cantilever",
+    "centre_dist_m": 25.61,
+    "screen_velocity_per_frame": [
+     0.00328,
+     -0.08264
+    ]
+   },
+   {
+    "frame": 120,
+    "forward": [
+     -0.17645,
+     0.97442,
+     -0.13917
+    ],
+    "up": [
+     0.0439,
+     0.14904,
+     0.98786
+    ],
+    "position": [
+     296.614,
+     422.337,
+     165.3
+    ],
+    "centre_hit": "Cantilever",
+    "centre_dist_m": 25.17,
+    "screen_velocity_per_frame": [
+     0.00427,
+     -0.09526
+    ]
+   }
+  ]
+ },
+ "S2_end": {
+  "frame": 288,
+  "record_object": "Record",
+  "point_record_space_m": [
+   -0.073679,
+   -0.006888,
+   0.0015
+  ],
+  "point_radius_m": 0.074,
+  "point_angle_deg": -174.6592,
+  "cam_up_record_space": [
+   0.995659,
+   0.09308,
+   0.0
+  ],
+  "cam_view_dir_record_space": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "visible_width_record_m": 0.064286,
+  "visible_height_record_m": 0.036161,
+  "camera_height_above_vinyl_m": 0.05,
+  "lens_mm": 28.0,
+  "sensor_width_mm": 36.0,
+  "marble_scale": 12.0,
+  "marble_freq": 4.4,
+  "marble_field_input": "ND.build_marble_field(tree, vec, scale=marble_scale, freq=marble_freq) with vec = Record object coords (m) (Texture Coordinate Object of the Record; z of the vinyl surface = point z). NOTE freq is NOT the ND default 2.2.",
+  "record_rotation": "clockwise seen from above, 200 deg/s; the S2 camera co-rotates exactly from f282 so f283-288 are still",
+  "cam_drift_last_frame_m": 4e-08,
+  "set_c_marble_match": {
+   "scale": 0.001578855,
+   "angle": 0.093215,
+   "offset": [
+    -2.267505,
+    -0.211979,
+    0.018
+   ],
+   "freq": 4.4,
+   "record_m_per_desert_m": 0.0001315712,
+   "note": "drop-in for handoff key set_c_marble once Set C passes freq=freq to ND.build_marble_field"
+  }
+ },
+ "S2_start": {
+  "frame": 121,
+  "note": "S2 first frame (world, set B metres). Camera rides 0.38 mm above the cantilever axis, 1 mm back from the stylus tip, looking back along the tapered tube (4 deg below horizontal; vinyl horizon ~1/3 from the top). The tube runs out of the frame bottom ~65% wide and converges toward the top edge like the S1 f120 spire, painted with the three S1 streaks (magenta left flank, saffron/cream crest, ultramarine right flank; keyed macro tint f121-125 fading out by f131). Nearly deep focus at the cut; the camera then rises + pulls back.",
+  "cam_forward_world": [
+   0.71265,
+   0.69804,
+   -0.06976
+  ],
+  "cam_up_world": [
+   0.04983,
+   0.04881,
+   0.99756
+  ],
+  "lens_mm": 28.0
+ }
+}

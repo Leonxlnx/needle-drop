@@ -1,0 +1,234 @@
+NEEDLE DROP - audio credits and licences
+============================================================
+All music and sound effects are real recordings downloaded without login from Mixkit and (vinyl surface noise only)
+freesound.org CC0 sounds. Nothing is synthesised;
+the audio stage only cut, crossfaded, filtered, reversed, pitch-shifted (asetrate / rubberband), layered and levelled them.
+Mixkit Stock Music Free License: https://mixkit.co/license/#musicFree  (free for commercial and personal use, no attribution required)
+Mixkit Sound Effects Free License: https://mixkit.co/license/#sfxFree   (free for commercial and personal use, no attribution required)
+freesound.org CC0 sounds: Creative Commons 0 (public domain dedication, no attribution required): https://creativecommons.org/publicdomain/zero/1.0/
+Credit is given below anyway as good practice. No CC-BY material is used, so no mandatory credit text applies.
+
+MUSIC USED IN THE FILM
+------------------------------------------------------------
+"Pitbull" by Michael Ramir C. (Breakbeat), Mixkit Stock Music Free License
+  URL: https://assets.mixkit.co/music/1008/1008.mp3   local: audio/music/mixkit/mixkit_1008.mp3
+  Role: main track: all music bars of the 30 s edit (intro, groove, build, drop, lift, final hit)
+"Epical Drums 02" by Grigoriy Nuzhny (Percussion Trailer), Mixkit Stock Music Free License
+  URL: https://assets.mixkit.co/music/677/677.mp3   local: audio/music/mixkit/mixkit_677.mp3
+  Role: hybrid-cinematic layer: its 58.0 s hit + the 8-bar percussion groove after it (resampled 120.3 -> 120 BPM, HPF 140 Hz) under the 18.0-26.0 drop, and the hit again on the 29.0 final hit
+"Orchestra triumphant trumpets" (0:04), Mixkit sound effect #2285, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2285/2285.wav   local: audio/sfx/mixkit/mixkit_sfx_2285.wav
+  Role: brass stab in the music edit: its sustained C5 power chord chopped and pitched (rubberband, formant preserved) to Eb5 (18.0, 29.0) and Bb4 (24.0)
+  Edit map: audio/music_edit_map.json; result audio/music_edit.wav (48 kHz stereo 24-bit, 120.000 BPM, drop downbeat at 18.000 s)
+
+SOUND EFFECTS USED IN THE MIX (audio/cues.json)
+------------------------------------------------------------
+"vinyl record crackle nice stereo.flac" by kyles, freesound.org sound #637931, Creative Commons 0 (CC0 1.0, public domain dedication)
+  Page: https://freesound.org/people/kyles/sounds/637931/   file: https://cdn.freesound.org/previews/637/637931_612689-hq.mp3 (HQ preview, no login)   local: audio/sfx/freesound/fs_637931.mp3
+  Used as: crackle_head, crackle_tail, touchdown_crackle_swell (vinyl surface noise bed)
+"Vinyl Crackle Infinite Groove 03" by hardcore scm, freesound.org sound #838458, Creative Commons 0 (CC0 1.0, public domain dedication)
+  Page: https://freesound.org/people/hardcore%20scm/sounds/838458/   file: https://cdn.freesound.org/previews/838/838458_1882330-hq.mp3 (HQ preview, no login)   local: audio/sfx/freesound/fs_838458.mp3
+  Used as: crackle_head, crackle_tail (one locked-groove revolution tick, repeated every 1.8 s = 33 1/3 rpm)
+"Long sweeping air swoosh" (0:04), Mixkit sound effect #167, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/167/167.wav   local: audio/sfx/mixkit/mixkit_sfx_167.wav
+  Used as: air_swoosh
+"Deep heartbeat impact" (0:03), Mixkit sound effect #498, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/498/498.wav   local: audio/sfx/mixkit/mixkit_sfx_498.wav
+  Used as: cut_thump
+"Record player needle drop on vinyl" (0:01), Mixkit sound effect #701, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/701/701.wav   local: audio/sfx/mixkit/mixkit_sfx_701.wav
+  Used as: needle_tick_0, touchdown_needle
+"Vinyl record slow down" (0:09), Mixkit sound effect #711, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/711/711.wav   local: audio/sfx/mixkit/mixkit_sfx_711.wav
+  Used as: disc_spinup
+"Falling hit on gravel" (0:01), Mixkit sound effect #756, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/756/756.wav   local: audio/sfx/mixkit/mixkit_sfx_756.wav
+  Used as: sand_rain_hit
+"Metal Scrape" (0:01), Mixkit sound effect #809, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/809/809.wav   local: audio/sfx/mixkit/mixkit_sfx_809.wav
+  Used as: metal_scrape
+"Fairy sparkle whoosh" (0:04), Mixkit sound effect #869, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/869/869.wav   local: audio/sfx/mixkit/mixkit_sfx_869.wav
+  Used as: grain_shimmer
+"Arctic winds" (0:38), Mixkit sound effect #1154, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1154/1154.wav   local: audio/sfx/mixkit/mixkit_sfx_1154.wav
+  Used as: altitude_wind
+"Swoosh wind passing" (0:05), Mixkit sound effect #1167, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1167/1167.wav   local: audio/sfx/mixkit/mixkit_sfx_1167.wav
+  Used as: front_pass_wind
+"Wind in the top of the mountain" (0:31), Mixkit sound effect #1267, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1267/1267.wav   local: audio/sfx/mixkit/mixkit_sfx_1267.wav
+  Used as: canyon_wind
+"Gravel stones small avalanche" (0:01), Mixkit sound effect #1273, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1273/1273.wav   local: audio/sfx/mixkit/mixkit_sfx_1273.wav
+  Used as: drop_grit, front_sand_grit_R, touchdown_grit
+"Antique movie projector spinning" (0:21), Mixkit sound effect #1444, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1444/1444.wav   local: audio/sfx/mixkit/mixkit_sfx_1444.wav
+  Used as: disc_grind
+"Cinematic wind swoosh" (0:01), Mixkit sound effect #1471, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1471/1471.wav   local: audio/sfx/mixkit/mixkit_sfx_1471.wav
+  Used as: reverse_pull
+"Speeding swoosh" (0:04), Mixkit sound effect #1484, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1484/1484.wav   local: audio/sfx/mixkit/mixkit_sfx_1484.wav
+  Used as: air_rush
+"Metal hit woosh" (0:01), Mixkit sound effect #1485, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1485/1485.wav   local: audio/sfx/mixkit/mixkit_sfx_1485.wav
+  Used as: metal_swish
+"Sand swish" (0:01), Mixkit sound effect #1494, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1494/1494.wav   local: audio/sfx/mixkit/mixkit_sfx_1494.wav
+  Used as: sand_hiss_00, sand_hiss_01, sand_hiss_02, ... (11 cues)
+"Underground explosion impact echo" (0:04), Mixkit sound effect #1686, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1686/1686.wav   local: audio/sfx/mixkit/mixkit_sfx_1686.wav
+  Used as: drop_sub_boom, touchdown_boom
+"Rocket rumble in the distance" (0:14), Mixkit sound effect #1718, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1718/1718.wav   local: audio/sfx/mixkit/mixkit_sfx_1718.wav
+  Used as: sub_rumble
+"Electric whisk stops" (0:10), Mixkit sound effect #1814, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1814/1814.wav   local: audio/sfx/mixkit/mixkit_sfx_1814.wav
+  Used as: arm_servo
+"Refrigerator hum" (0:35), Mixkit sound effect #1837, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1837/1837.wav   local: audio/sfx/mixkit/mixkit_sfx_1837.wav
+  Used as: motor_hum
+"Low electricity humming" (0:19), Mixkit sound effect #2132, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2132/2132.wav   local: audio/sfx/mixkit/mixkit_sfx_2132.wav
+  Used as: neon_buzz
+"Drum bass hit" (0:01), Mixkit sound effect #2294, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2294/2294.wav   local: audio/sfx/mixkit/mixkit_sfx_2294.wav
+  Used as: drop_sub_kick, needle_thunk, touchdown_sub_kick
+"Storm coming whoosh" (0:04), Mixkit sound effect #2408, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2408/2408.wav   local: audio/sfx/mixkit/mixkit_sfx_2408.wav
+  Used as: roar
+"Wind in a desolate world" (0:13), Mixkit sound effect #2490, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2490/2490.wav   local: audio/sfx/mixkit/mixkit_sfx_2490.wav
+  Used as: desert_wind
+"Sand in the desert" (0:05), Mixkit sound effect #2494, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2494/2494.wav   local: audio/sfx/mixkit/mixkit_sfx_2494.wav
+  Used as: sand_rain
+"Body impact falling into the sand" (0:01), Mixkit sound effect #2498, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2498/2498.wav   local: audio/sfx/mixkit/mixkit_sfx_2498.wav
+  Used as: front_sand_blast_L
+"Heavy electric shockwave impact" (0:06), Mixkit sound effect #2599, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2599/2599.wav   local: audio/sfx/mixkit/mixkit_sfx_2599.wav
+  Used as: drop_crack
+"Deep air woosh" (0:02), Mixkit sound effect #2604, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2604/2604.wav   local: audio/sfx/mixkit/mixkit_sfx_2604.wav
+  Used as: lint_whoosh
+"Air zoom vacuum" (0:01), Mixkit sound effect #2608, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2608/2608.wav   local: audio/sfx/mixkit/mixkit_sfx_2608.wav
+  Used as: arm_hydraulic
+"Mighty mysterious swoosh" (0:04), Mixkit sound effect #2615, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2615/2615.wav   local: audio/sfx/mixkit/mixkit_sfx_2615.wav
+  Used as: shadow_drone
+"Ghostly whoosh passing" (0:03), Mixkit sound effect #2623, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2623/2623.wav   local: audio/sfx/mixkit/mixkit_sfx_2623.wav
+  Used as: vault_whoosh
+"Intense swell phasing spinning" (0:06), Mixkit sound effect #2667, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2667/2667.wav   local: audio/sfx/mixkit/mixkit_sfx_2667.wav
+  Used as: vortex
+"Masive explosion in battle" (0:08), Mixkit sound effect #2777, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2777/2777.wav   local: audio/sfx/mixkit/mixkit_sfx_2777.wav
+  Used as: drop_explosion, touchdown_sand
+"Epic impact afar explosion" (0:04), Mixkit sound effect #2782, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2782/2782.wav   local: audio/sfx/mixkit/mixkit_sfx_2782.wav
+  Used as: reverse_cymbal
+"Metallic sword scrape" (0:01), Mixkit sound effect #2799, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2799/2799.wav   local: audio/sfx/mixkit/mixkit_sfx_2799.wav
+  Used as: arm_creak
+"Epic movie trailer whoosh impact" (0:09), Mixkit sound effect #2918, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/2918/2918.wav   local: audio/sfx/mixkit/mixkit_sfx_2918.wav
+  Used as: front_whoosh_impact
+"Crystal chime" (0:02), Mixkit sound effect #3108, author not listed by Mixkit, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/3108/3108.wav   local: audio/sfx/mixkit/mixkit_sfx_3108.wav
+  Used as: crystal_swell
+
+DOWNLOADED FOR ANALYSIS BUT NOT USED (same licences; listed for completeness)
+------------------------------------------------------------
+music  "Keep the Funk ON" by Michael Ramir C. - https://assets.mixkit.co/music/1003/1003.mp3 - Mixkit Stock Music Free License
+music  "Stylz" by Ahjay Stelino - https://assets.mixkit.co/music/102/102.mp3 - Mixkit Stock Music Free License
+music  "Evolution" by Michael Ramir C. - https://assets.mixkit.co/music/1027/1027.mp3 - Mixkit Stock Music Free License
+music  "Sweatin' It" by Ahjay Stelino - https://assets.mixkit.co/music/103/103.mp3 - Mixkit Stock Music Free License
+music  "K.O." by Michael Ramir C. - https://assets.mixkit.co/music/1068/1068.mp3 - Mixkit Stock Music Free License
+music  "The Greatest Comeback" by Michael Ramir C. - https://assets.mixkit.co/music/1079/1079.mp3 - Mixkit Stock Music Free License
+music  "Brutal Mind" by Michael Ramir C. - https://assets.mixkit.co/music/1090/1090.mp3 - Mixkit Stock Music Free License
+music  "K.O. Games" by Michael Ramir C. - https://assets.mixkit.co/music/1103/1103.mp3 - Mixkit Stock Music Free License
+music  "Traitor" by Michael Ramir C. - https://assets.mixkit.co/music/1121/1121.mp3 - Mixkit Stock Music Free License
+music  "Are U Ready For This?" by Michael Ramir C. - https://assets.mixkit.co/music/1127/1127.mp3 - Mixkit Stock Music Free License
+music  "Funkee Monkeee" by Michael Ramir C. - https://assets.mixkit.co/music/1140/1140.mp3 - Mixkit Stock Music Free License
+music  "No Warning" by Michael Ramir C. - https://assets.mixkit.co/music/1150/1150.mp3 - Mixkit Stock Music Free License
+music  "Protesting Robot" by Michael Ramir C. - https://assets.mixkit.co/music/1153/1153.mp3 - Mixkit Stock Music Free License
+music  "Non Stop" by Michael Ramir C. - https://assets.mixkit.co/music/1187/1187.mp3 - Mixkit Stock Music Free License
+music  "Flopper" by Michael Ramir C. - https://assets.mixkit.co/music/1222/1222.mp3 - Mixkit Stock Music Free License
+music  "Techno Fest Feel" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/125/125.mp3 - Mixkit Stock Music Free License
+music  "Trap Electro Vibes" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/126/126.mp3 - Mixkit Stock Music Free License
+music  "Infected Mushroom Vibes" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/136/136.mp3 - Mixkit Stock Music Free License
+music  "Cyberpunk City" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/140/140.mp3 - Mixkit Stock Music Free License
+music  "Electron 02" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/154/154.mp3 - Mixkit Stock Music Free License
+music  "Infected Vibes" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/157/157.mp3 - Mixkit Stock Music Free License
+music  "Acid Arcadia" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/170/170.mp3 - Mixkit Stock Music Free License
+music  "Beating Break" by Alejandro MagaÃ±a (A. M.) - https://assets.mixkit.co/music/174/174.mp3 - Mixkit Stock Music Free License
+music  "Driving Ambition" by Ahjay Stelino - https://assets.mixkit.co/music/32/32.mp3 - Mixkit Stock Music Free License
+music  "Life's a Movie" by Arulo - https://assets.mixkit.co/music/322/322.mp3 - Mixkit Stock Music Free License
+music  "Raising Me Higher" by Ahjay Stelino - https://assets.mixkit.co/music/34/34.mp3 - Mixkit Stock Music Free License
+music  "Sci-Fi Score" by Arulo - https://assets.mixkit.co/music/464/464.mp3 - Mixkit Stock Music Free License
+music  "Sports Highlights" by Ahjay Stelino - https://assets.mixkit.co/music/51/51.mp3 - Mixkit Stock Music Free License
+music  "Training" by Ahjay Stelino - https://assets.mixkit.co/music/53/53.mp3 - Mixkit Stock Music Free License
+music  "Epical Drums 01" by Grigoriy Nuzhny - https://assets.mixkit.co/music/676/676.mp3 - Mixkit Stock Music Free License
+music  "Epical Drums 03" by Grigoriy Nuzhny - https://assets.mixkit.co/music/678/678.mp3 - Mixkit Stock Music Free License
+music  "Epical Drums 04" by Grigoriy Nuzhny - https://assets.mixkit.co/music/679/679.mp3 - Mixkit Stock Music Free License
+music  "Epical Drums 05" by Grigoriy Nuzhny - https://assets.mixkit.co/music/680/680.mp3 - Mixkit Stock Music Free License
+music  "Epical Drums 06" by Grigoriy Nuzhny - https://assets.mixkit.co/music/686/686.mp3 - Mixkit Stock Music Free License
+music  "Games Music" by Grigoriy Nuzhny - https://assets.mixkit.co/music/706/706.mp3 - Mixkit Stock Music Free License
+music  "Daredevil" by Ahjay Stelino - https://assets.mixkit.co/music/80/80.mp3 - Mixkit Stock Music Free License
+music  "Gimme that Groove!" by Michael Ramir C. - https://assets.mixkit.co/music/872/872.mp3 - Mixkit Stock Music Free License
+music  "Under the Full Moon" by Michael Ramir C. - https://assets.mixkit.co/music/889/889.mp3 - Mixkit Stock Music Free License
+sfx    "Blizzard cold winds" (2:10) - https://assets.mixkit.co/active_storage/sfx/1153/1153.wav - Mixkit Sound Effects Free License
+sfx    "Woosh wind" (0:03) - https://assets.mixkit.co/active_storage/sfx/1168/1168.wav - Mixkit Sound Effects Free License
+sfx    "Deep cinematic wind hum" (0:54) - https://assets.mixkit.co/active_storage/sfx/1177/1177.wav - Mixkit Sound Effects Free License
+sfx    "Thunder deep rumble" (0:18) - https://assets.mixkit.co/active_storage/sfx/1296/1296.wav - Mixkit Sound Effects Free License
+sfx    "Campfire crackles" (0:24) - https://assets.mixkit.co/active_storage/sfx/1330/1330.wav - Mixkit Sound Effects Free License
+sfx    "Radio noise static and crackles" (0:10) - https://assets.mixkit.co/active_storage/sfx/1446/1446.wav - Mixkit Sound Effects Free License
+sfx    "Long static noise with crackles" (0:11) - https://assets.mixkit.co/active_storage/sfx/1448/1448.wav - Mixkit Sound Effects Free License
+sfx    "Vacuum swoosh transition" (0:02) - https://assets.mixkit.co/active_storage/sfx/1465/1465.wav - Mixkit Sound Effects Free License
+sfx    "Transition windy swoosh" (0:03) - https://assets.mixkit.co/active_storage/sfx/1474/1474.wav - Mixkit Sound Effects Free License
+sfx    "Cinematic tunnel reverb woosh" (0:06) - https://assets.mixkit.co/active_storage/sfx/1486/1486.wav - Mixkit Sound Effects Free License
+sfx    "Sword blade swish" (0:01) - https://assets.mixkit.co/active_storage/sfx/1506/1506.wav - Mixkit Sound Effects Free License
+sfx    "Dramatic metal explosion impact" (0:04) - https://assets.mixkit.co/active_storage/sfx/1687/1687.wav - Mixkit Sound Effects Free License
+sfx    "Rocket landing whoosh" (0:10) - https://assets.mixkit.co/active_storage/sfx/1721/1721.wav - Mixkit Sound Effects Free License
+sfx    "Electric kitchen mixer stop" (0:03) - https://assets.mixkit.co/active_storage/sfx/1811/1811.wav - Mixkit Sound Effects Free License
+sfx    "Fridge motor hum" (0:06) - https://assets.mixkit.co/active_storage/sfx/1865/1865.wav - Mixkit Sound Effects Free License
+sfx    "Sci fi machine deep hum" (0:40) - https://assets.mixkit.co/active_storage/sfx/2137/2137.wav - Mixkit Sound Effects Free License
+sfx    "Cinematic transition brass hum" (0:20) - https://assets.mixkit.co/active_storage/sfx/2282/2282.wav - Mixkit Sound Effects Free License
+sfx    "Threatening orchestra trumpets" (0:03) - https://assets.mixkit.co/active_storage/sfx/2284/2284.wav - Mixkit Sound Effects Free License
+sfx    "Trumpets and strings off beat" (0:02) - https://assets.mixkit.co/active_storage/sfx/2286/2286.wav - Mixkit Sound Effects Free License
+sfx    "Epic orchestra transition" (0:07) - https://assets.mixkit.co/active_storage/sfx/2290/2290.wav - Mixkit Sound Effects Free License
+sfx    "Orchestra trumpets ending" (0:04) - https://assets.mixkit.co/active_storage/sfx/2292/2292.wav - Mixkit Sound Effects Free License
+sfx    "Trumpet fanfare" (0:08) - https://assets.mixkit.co/active_storage/sfx/2293/2293.wav - Mixkit Sound Effects Free License
+sfx    "Bass rumble hum" (0:06) - https://assets.mixkit.co/active_storage/sfx/2297/2297.wav - Mixkit Sound Effects Free License
+sfx    "Cinematic whoosh magic gust" (0:07) - https://assets.mixkit.co/active_storage/sfx/2343/2343.wav - Mixkit Sound Effects Free License
+sfx    "Magic sparkle whoosh" (0:03) - https://assets.mixkit.co/active_storage/sfx/2350/2350.wav - Mixkit Sound Effects Free License
+sfx    "Storm rumble starting" (0:05) - https://assets.mixkit.co/active_storage/sfx/2409/2409.wav - Mixkit Sound Effects Free License
+sfx    "Storm vortex" (0:12) - https://assets.mixkit.co/active_storage/sfx/2410/2410.wav - Mixkit Sound Effects Free License
+sfx    "Desert ambience" (1:00) - https://assets.mixkit.co/active_storage/sfx/2495/2495.wav - Mixkit Sound Effects Free License
+sfx    "Spinning electric machine" (0:08) - https://assets.mixkit.co/active_storage/sfx/2646/2646.wav - Mixkit Sound Effects Free License
+sfx    "Engine slow spinning whoosh" (0:07) - https://assets.mixkit.co/active_storage/sfx/2650/2650.wav - Mixkit Sound Effects Free License
+sfx    "Wind blowing ambience" (1:01) - https://assets.mixkit.co/active_storage/sfx/2658/2658.wav - Mixkit Sound Effects Free License
+sfx    "Epic movie impact" (0:05) - https://assets.mixkit.co/active_storage/sfx/2901/2901.wav - Mixkit Sound Effects Free License
+sfx    "Movie trailer epic impact" (0:04) - https://assets.mixkit.co/active_storage/sfx/2908/2908.wav - Mixkit Sound Effects Free License
+sfx    "Meteor whoosh" (0:04) - https://assets.mixkit.co/active_storage/sfx/3024/3024.wav - Mixkit Sound Effects Free License
+sfx    "Deep cinematic subtle drum impact" (0:04) - https://assets.mixkit.co/active_storage/sfx/549/549.wav - Mixkit Sound Effects Free License
+sfx    "Drum deep impact" (0:05) - https://assets.mixkit.co/active_storage/sfx/563/563.wav - Mixkit Sound Effects Free License
+sfx    "Atmospheric wind drum roll swoosh" (0:06) - https://assets.mixkit.co/active_storage/sfx/576/576.wav - Mixkit Sound Effects Free License
+sfx    "Grand brass fanfare" (0:05) - https://assets.mixkit.co/active_storage/sfx/631/631.wav - Mixkit Sound Effects Free License
+sfx    "Record player vinyl scratch" (0:01) - https://assets.mixkit.co/active_storage/sfx/702/702.wav - Mixkit Sound Effects Free License
+sfx    "Vinyl stop fast scratch" (0:03) - https://assets.mixkit.co/active_storage/sfx/704/704.wav - Mixkit Sound Effects Free License
+sfx    "Slow vinyl record scratch" (0:03) - https://assets.mixkit.co/active_storage/sfx/706/706.wav - Mixkit Sound Effects Free License
+sfx    "Vinyl record small scratch" (0:01) - https://assets.mixkit.co/active_storage/sfx/710/710.wav - Mixkit Sound Effects Free License
+sfx    "Reverse cinematic impact trailer" (0:10) - https://assets.mixkit.co/active_storage/sfx/784/784.wav - Mixkit Sound Effects Free License
+sfx    "vinyl - out 05.wav" by Anthousai - https://freesound.org/people/Anthousai/sounds/398817/ - Creative Commons 0 (CC0 1.0, public domain dedication)
+sfx    "Vinyl Crackle Analogue 2.wav" by HenKonen - https://freesound.org/people/HenKonen/sounds/682194/ - Creative Commons 0 (CC0 1.0, public domain dedication)
+sfx    "Vinyl Crackle.wav" by JSilverSound - https://freesound.org/people/JSilverSound/sounds/532159/ - Creative Commons 0 (CC0 1.0, public domain dedication)
+sfx    "Vinyl" (vinylstart.mp3) by Aidan_Walker - https://opengameart.org/content/vinyl - CC0
+
+"Cinematic whoosh fast transition" (0:01), Mixkit sound effect #1492, Mixkit Sound Effects Free License
+  URL: https://assets.mixkit.co/active_storage/sfx/1492/1492.wav   local: audio/sfx/mixkit/mixkit_sfx_1492.wav
+  Used as: S1->S2 cut whoosh (peak at 5.000 s), added by the director in audio/mix_final.wav

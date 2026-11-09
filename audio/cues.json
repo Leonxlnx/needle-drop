@@ -1,0 +1,1109 @@
+{
+ "duration": 30,
+ "latency_compensation_s": 0.005,
+ "kick_window_db": 7.0,
+ "kick_window_shape": [
+  0.003,
+  0.04,
+  0.085
+ ],
+ "music": [
+  {
+   "file": "audio/_work/music_stem_mixjs.wav",
+   "at": 0,
+   "offset": 0,
+   "dur": null,
+   "gain_db": 0.0,
+   "fade_in": 0,
+   "fade_out": 0,
+   "note": "audio/_work/music_ducked.wav (music_edit.wav + the bible 6.1 ducks, Pitbull above 150 Hz only, -3 dB at 18.0 and 29.0) advanced by 240 samples to cancel the mix.js limiter latency (mix.js input only; master_linear.py uses audio/_work/music_ducked.wav)"
+  }
+ ],
+ "sfx": [
+  {
+   "name": "crackle_head",
+   "file": "audio/sfx/prep/crackle_head_0_12.wav",
+   "at": 0.0,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -2.0,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -28.5,
+    "target": -30.5
+   },
+   "note": "vinyl surface noise + 1.8 s revolution tick, 0-12 s (dips at 6.0, gone by 12.0); continuous with crackle_tail across the loop"
+  },
+  {
+   "name": "crackle_tail",
+   "file": "audio/sfx/prep/crackle_tail_29_30.wav",
+   "at": 28.995,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -2.0,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -26.2,
+    "target": -30.5
+   },
+   "note": "crackle through the black (29.0-30.0); loop[0,1) -> head starts at loop[1,..)"
+  },
+  {
+   "name": "needle_tick_0",
+   "file": "audio/sfx/prep/needle_drop.wav",
+   "at": 0.0,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -4.56,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "peak",
+    "measured": -2.44,
+    "target": -7.0
+   },
+   "note": "Mixkit \"Record player needle drop on vinyl\"; this exact file returns at 29.0 pitched -12 st"
+  },
+  {
+   "name": "needle_thunk",
+   "file": "audio/sfx/prep/needle_thunk.wav",
+   "at": 0.0,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -21.66,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "peak",
+    "measured": -0.34,
+    "target": -22.0
+   },
+   "note": "Mixkit \"Drum bass hit\" (Eb1): sub body under the 0.00 needle drop"
+  },
+  {
+   "name": "air_rush",
+   "file": "audio/sfx/prep/air_rush.wav",
+   "at": 0.0,
+   "offset": 0,
+   "dur": 2.05,
+   "gain_db": -6.8,
+   "fade_in": 0.0,
+   "fade_out": 0.7,
+   "pan": 0.0,
+   "rate": 0.749154,
+   "_level": {
+    "mode": "I",
+    "measured": -19.2,
+    "target": -26.0
+   },
+   "note": "Mixkit \"Speeding swoosh\" from its loudest point, -5 st, LPF 2 kHz: already moving on frame 1, hands over to the canyon wind / lint whoosh"
+  },
+  {
+   "name": "air_swoosh",
+   "file": "audio/sfx/prep/air_swoosh.wav",
+   "at": 0.145,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -14.4,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 0.749154,
+   "_level": {
+    "mode": "I",
+    "measured": -12.6,
+    "target": -27.0
+   },
+   "note": "Mixkit \"Long sweeping air swoosh\" -5 st, LPF 2 kHz: keeps the 12 m/s flight audible 0.4-1.8 s"
+  },
+  {
+   "name": "canyon_wind",
+   "file": "audio/sfx/prep/canyon_wind.wav",
+   "at": 0.0,
+   "offset": 0,
+   "dur": 5.4,
+   "gain_db": -14.8,
+   "fade_in": 0.4,
+   "fade_out": 0.45,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -18.2,
+    "target": -33.0
+   },
+   "note": "deep canyon wind, LPF 2 kHz; ends on the 5.0 hidden cut"
+  },
+  {
+   "name": "lint_whoosh",
+   "file": "audio/sfx/prep/lint_whoosh.wav",
+   "at": 1.3436,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -15.5,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 0.749154,
+   "_level": {
+    "mode": "I",
+    "measured": -12.5,
+    "target": -28.0
+   },
+   "note": "Mixkit \"Deep air woosh\" -5 st, peak on lint_pass"
+  },
+  {
+   "name": "crystal_swell",
+   "file": "audio/sfx/prep/crystal_swell_rev.wav",
+   "at": 0.12867,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -11.7,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 0.5,
+   "_level": {
+    "mode": "I",
+    "measured": -13.3,
+    "target": -25.0
+   },
+   "note": "Mixkit \"Crystal chime\" reversed, -12 st: swells 0.6-4.0 s into the vault"
+  },
+  {
+   "name": "metal_scrape",
+   "file": "audio/sfx/prep/metal_scrape.wav",
+   "at": 3.295,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -16.2,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 0.5,
+   "_level": {
+    "mode": "I",
+    "measured": -12.8,
+    "target": -29.0
+   },
+   "note": "Mixkit \"Metal Scrape\" -12 st"
+  },
+  {
+   "name": "vault_whoosh",
+   "file": "audio/sfx/prep/vault_whoosh.wav",
+   "at": 3.895,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -9.1,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -14.9,
+    "target": -24.0
+   },
+   "note": "Mixkit \"Ghostly whoosh passing\" rising section, peak ~4.75 (crest)"
+  },
+  {
+   "name": "metal_swish",
+   "file": "audio/sfx/prep/metal_swish.wav",
+   "at": 4.794,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -17.5,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -11.5,
+    "target": -29.0
+   },
+   "note": "Mixkit \"Metal hit woosh\", quiet, on the cantilever"
+  },
+  {
+   "name": "reverse_pull",
+   "file": "audio/sfx/prep/reverse_pull.wav",
+   "at": 4.958,
+   "offset": 0,
+   "dur": 1.05,
+   "gain_db": -8.4,
+   "fade_in": 0.0,
+   "fade_out": 0.05,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -15.6,
+    "target": -24.0
+   },
+   "note": "Mixkit \"Cinematic wind swoosh\" reversed: air pulls back into the 6.0 downbeat"
+  },
+  {
+   "name": "motor_hum",
+   "file": "audio/sfx/prep/motor_hum.wav",
+   "at": 5.995,
+   "offset": 0,
+   "dur": 6.0,
+   "gain_db": 2.1,
+   "fade_in": 0.25,
+   "fade_out": 0.5,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -40.1,
+    "target": -38.0
+   },
+   "note": "Mixkit \"Refrigerator hum\" as the turntable motor, very low and dry"
+  },
+  {
+   "name": "neon_buzz",
+   "file": "audio/sfx/prep/neon_buzz.wav",
+   "at": 5.995,
+   "offset": 0,
+   "dur": 6.0,
+   "gain_db": -11.1,
+   "fade_in": 0.4,
+   "fade_out": 0.5,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -30.9,
+    "target": -42.0
+   },
+   "note": "Mixkit \"Low electricity humming\" as the strobe lamp buzz"
+  },
+  {
+   "name": "vortex",
+   "file": "audio/sfx/prep/vortex.wav",
+   "at": 9.995,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -10.7,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -16.3,
+    "target": -27.0
+   },
+   "note": "Mixkit \"Intense swell phasing spinning\": the capture spin, rising into 12.0"
+  },
+  {
+   "name": "reverse_cymbal",
+   "file": "audio/sfx/prep/reverse_cymbal.wav",
+   "at": 9.795,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -12.5,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -16.5,
+    "target": -29.0
+   },
+   "note": "reverse crash swell ending exactly on the 12.0 match cut"
+  },
+  {
+   "name": "cut_thump",
+   "file": "audio/sfx/prep/cut_thump.wav",
+   "at": 11.994,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -10.36,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -14.64,
+    "target": -25.0
+   },
+   "note": "Mixkit \"Deep heartbeat impact\", soft deep thump on the 12.0 cut"
+  },
+  {
+   "name": "desert_wind",
+   "file": "audio/sfx/prep/desert_wind.wav",
+   "at": 11.995,
+   "offset": 0,
+   "dur": 5.5,
+   "gain_db": -17.0,
+   "fade_in": 0.6,
+   "fade_out": 0.03,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -14.0,
+    "target": -31.0
+   },
+   "note": "Mixkit \"Wind in a desolate world\"; hard stop at 17.5"
+  },
+  {
+   "name": "sand_hiss_00",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 12.002,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 8.11,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -25.588
+   },
+   "note": "kick ring 12.008s strength 0.653"
+  },
+  {
+   "name": "sand_hiss_01",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 12.5117,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 8.21,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": 0.24,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -25.492
+   },
+   "note": "kick ring 12.518s strength 0.677"
+  },
+  {
+   "name": "sand_hiss_02",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 13.0004,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 8.28,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": -0.35,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -25.416
+   },
+   "note": "kick ring 13.006s strength 0.696"
+  },
+  {
+   "name": "sand_hiss_03",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 13.5032,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 8.3,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": 0.28,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -25.404
+   },
+   "note": "kick ring 13.509s strength 0.699"
+  },
+  {
+   "name": "sand_hiss_04",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 14.0039,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 8.52,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": -0.06,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -25.182529411764705
+   },
+   "note": "kick ring 14.010s strength 0.75"
+  },
+  {
+   "name": "sand_hiss_05",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 14.5093,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 9.17,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": -0.19,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -24.53064705882353
+   },
+   "note": "kick ring 14.515s strength 0.69"
+  },
+  {
+   "name": "sand_hiss_06",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 15.0007,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 10.27,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": 0.34,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -23.427470588235295
+   },
+   "note": "kick ring 15.007s strength 0.749"
+  },
+  {
+   "name": "sand_hiss_07",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 15.5007,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 11.21,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": -0.31,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -22.489117647058823
+   },
+   "note": "kick ring 15.507s strength 0.763"
+  },
+  {
+   "name": "sand_hiss_08",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 16.0012,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 12.07,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": 0.12,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -21.629882352941173
+   },
+   "note": "kick ring 16.007s strength 0.757"
+  },
+  {
+   "name": "sand_hiss_09",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 16.5125,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 12.88,
+   "fade_in": 0.0,
+   "fade_out": 0,
+   "pan": 0.13,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -20.823588235294118
+   },
+   "note": "kick ring 16.518s strength 0.733"
+  },
+  {
+   "name": "sand_hiss_10",
+   "file": "audio/sfx/prep/sand_hiss.wav",
+   "at": 17.0015,
+   "offset": 0,
+   "dur": 0.42,
+   "gain_db": 14.0,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "pan": -0.32,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -33.7,
+    "target": -19.69664705882353
+   },
+   "note": "kick ring 17.008s strength 0.799"
+  },
+  {
+   "name": "sub_rumble",
+   "file": "audio/sfx/prep/sub_rumble.wav",
+   "at": 13.995,
+   "offset": 0,
+   "dur": 3.5,
+   "gain_db": -7.6,
+   "fade_in": 3.0,
+   "fade_out": 0.02,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -17.4,
+    "target": -25.0
+   },
+   "note": "Mixkit \"Rocket rumble in the distance\", LPF, swells under the riser 14.0-16.0, then the 30 -> 250 Hz HPF sweep drains its sub over 16.0-17.5 (with the music); hard stop at 17.5"
+  },
+  {
+   "name": "grain_shimmer",
+   "file": "audio/sfx/prep/grain_shimmer.wav",
+   "at": 16.07161,
+   "offset": 0,
+   "dur": 1.4223915675286927,
+   "gain_db": -7.4,
+   "fade_in": 0.0,
+   "fade_out": 0.02,
+   "pan": 0.0,
+   "rate": 0.66742,
+   "_level": {
+    "mode": "I",
+    "measured": -23.6,
+    "target": -31.0
+   },
+   "note": "Mixkit \"Fairy sparkle whoosh\" -7 st, quiet, as the grains lift; cut at 17.5"
+  },
+  {
+   "name": "drop_sub_kick",
+   "file": "audio/sfx/prep/drop_sub_kick.wav",
+   "at": 17.993,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -9.78,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "abs",
+    "measured": 0.0,
+    "target": 0.0
+   },
+   "note": "Mixkit \"Drum bass hit\" (Eb1 sub drum): doubles the Pitbull drop kick (polarity/time aligned)",
+   "_align": {
+    "cue": "drop_sub_kick",
+    "t0": 18.0,
+    "polarity": -1,
+    "nudge_ms": -1.0,
+    "base_low150": -14.64,
+    "layer_low150": -14.84,
+    "power_sum": -11.73,
+    "as_was": -13.59,
+    "aligned": -10.36,
+    "base_best50": -12.37,
+    "aligned_best50": -9.15
+   }
+  },
+  {
+   "name": "drop_sub_boom",
+   "file": "audio/sfx/prep/drop_sub_boom.wav",
+   "at": 17.99325,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -13.76,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 0.890899,
+   "_level": {
+    "mode": "hit",
+    "measured": -8.24,
+    "target": -22.0
+   },
+   "note": "Mixkit \"Underground explosion impact echo\" -2 st: sub boom (single-channel feed, polarity/time aligned to the kick + sub drum)",
+   "_align": {
+    "cue": "drop_sub_boom",
+    "t0": 18.0,
+    "polarity": -1,
+    "nudge_ms": -0.63,
+    "base_low150": -10.36,
+    "layer_low150": -27.35,
+    "power_sum": -10.28,
+    "as_was": -10.49,
+    "aligned": -10.06,
+    "base_best50": -9.15,
+    "aligned_best50": -8.91
+   }
+  },
+  {
+   "name": "drop_explosion",
+   "file": "audio/sfx/prep/drop_explosion.wav",
+   "at": 17.994,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -8.23,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -21.27,
+    "target": -29.5
+   },
+   "note": "Mixkit \"Masive explosion in battle\": sand explosion body + debris (HPF 140; its flat 2 s body shaped to decay, tau 0.45 s, so the drop punches instead of droning)"
+  },
+  {
+   "name": "drop_crack",
+   "file": "audio/sfx/prep/drop_crack.wav",
+   "at": 17.995,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -4.28,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -24.72,
+    "target": -29.0
+   },
+   "note": "Mixkit \"Heavy electric shockwave impact\" from 4 ms before its loudest 5 ms (3.7458 s): trailer impact crack, loudest at 18.000-18.010 (HPF 140)"
+  },
+  {
+   "name": "drop_grit",
+   "file": "audio/sfx/prep/drop_grit.wav",
+   "at": 17.994,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -14.19,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": -0.2,
+   "rate": 1.0,
+   "_level": {
+    "mode": "peak",
+    "measured": -0.81,
+    "target": -15.0
+   },
+   "note": "Mixkit \"Gravel stones small avalanche\": sand grit (HPF 140)"
+  },
+  {
+   "name": "roar",
+   "file": "audio/sfx/prep/roar.wav",
+   "at": 17.995,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -7.5,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -19.5,
+    "target": -27.0
+   },
+   "note": "Mixkit \"Storm coming whoosh\" rising section: the approaching front, peak 18.97, hard cut 19.05 (HPF 140)"
+  },
+  {
+   "name": "front_whoosh_impact",
+   "file": "audio/sfx/prep/front_whoosh_impact.wav",
+   "at": 18.395,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -11.65,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -11.35,
+    "target": -23.0
+   },
+   "note": "Mixkit \"Epic movie trailer whoosh impact\": impact on the front pass (low band <140 Hz single-channel, top stereo)"
+  },
+  {
+   "name": "front_pass_wind",
+   "file": "audio/sfx/prep/front_pass_wind.wav",
+   "at": 18.545,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -9.0,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -15.0,
+    "target": -24.0
+   },
+   "note": "Mixkit \"Swoosh wind passing\": its two peaks (clip 0.3 / 0.64 s) land on 18.85 / 19.19, straddling the front pass over the lens (18.95-19.20)"
+  },
+  {
+   "name": "front_sand_blast_L",
+   "file": "audio/sfx/prep/front_sand_blast.wav",
+   "at": 19.014,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -10.44,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": -0.6,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -23.56,
+    "target": -34.0
+   },
+   "note": "Mixkit \"Body impact falling into the sand\", left (HPF 140)"
+  },
+  {
+   "name": "front_sand_grit_R",
+   "file": "audio/sfx/prep/drop_grit.wav",
+   "at": 19.044,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -16.19,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.6,
+   "rate": 1.0,
+   "_level": {
+    "mode": "peak",
+    "measured": -0.81,
+    "target": -17.0
+   },
+   "note": "Mixkit \"Gravel stones small avalanche\", right (wide stereo)"
+  },
+  {
+   "name": "sand_rain",
+   "file": "audio/sfx/prep/sand_rain.wav",
+   "at": 19.095,
+   "offset": 0,
+   "dur": 2.4,
+   "gain_db": 14.5,
+   "fade_in": 0.4,
+   "fade_out": 0.9,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -43.5,
+    "target": -29.0
+   },
+   "note": "Mixkit \"Sand in the desert\": grains settling 19.1-21.5"
+  },
+  {
+   "name": "sand_rain_hit",
+   "file": "audio/sfx/prep/sand_rain_hit.wav",
+   "at": 19.895,
+   "offset": 0,
+   "dur": null,
+   "gain_db": -11.51,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.3,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -19.49,
+    "target": -31.0
+   },
+   "note": "Mixkit \"Falling hit on gravel\": a heavy clump landing"
+  },
+  {
+   "name": "altitude_wind",
+   "file": "audio/sfx/prep/altitude_wind.wav",
+   "at": 21.495,
+   "offset": 0,
+   "dur": 4.6,
+   "gain_db": -18.3,
+   "fade_in": 1.0,
+   "fade_out": 0.8,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "I",
+    "measured": -13.7,
+    "target": -32.0
+   },
+   "note": "Mixkit \"Arctic winds\": high-altitude wind for the crane"
+  },
+  {
+   "name": "disc_spinup",
+   "file": "audio/sfx/prep/disc_spinup.wav",
+   "at": 23.995,
+   "offset": 0,
+   "dur": 2.0,
+   "gain_db": -11.2,
+   "fade_in": 0.0,
+   "fade_out": 0.7,
+   "pan": 0.0,
+   "rate": 0.25,
+   "_level": {
+    "mode": "I",
+    "measured": -12.8,
+    "target": -24.0
+   },
+   "note": "Mixkit \"Vinyl record slow down\" reversed (= spin-up), -24 st; gone by 26.0"
+  },
+  {
+   "name": "disc_grind",
+   "file": "audio/sfx/prep/disc_grind.wav",
+   "at": 24.045,
+   "offset": 0,
+   "dur": 1.95,
+   "gain_db": -3.7,
+   "fade_in": 0.0,
+   "fade_out": 0.95,
+   "pan": 0.0,
+   "rate": 0.25,
+   "_level": {
+    "mode": "I",
+    "measured": -26.3,
+    "target": -30.0
+   },
+   "note": "Mixkit \"Antique movie projector spinning\" -24 st: colossal stone/motor grind, swell to ~25.0, gone by 26.0"
+  },
+  {
+   "name": "shadow_drone",
+   "file": "audio/sfx/prep/shadow_drone.wav",
+   "at": 25.245,
+   "offset": 0,
+   "dur": 2.6,
+   "gain_db": -10.9,
+   "fade_in": 0.0,
+   "fade_out": 0.8,
+   "pan": 0.0,
+   "rate": 0.749154,
+   "_level": {
+    "mode": "I",
+    "measured": -13.1,
+    "target": -24.0
+   },
+   "note": "Mixkit \"Mighty mysterious swoosh\" -5 st: dark air-pressure pass of the arm shadow"
+  },
+  {
+   "name": "arm_servo",
+   "file": "audio/sfx/prep/arm_servo.wav",
+   "at": 26.995,
+   "offset": 0,
+   "dur": 1.75,
+   "gain_db": -5.8,
+   "fade_in": 0.0,
+   "fade_out": 0.02,
+   "pan": 0.0,
+   "rate": 0.5,
+   "_level": {
+    "mode": "I",
+    "measured": -24.2,
+    "target": -30.0
+   },
+   "note": "Mixkit \"Electric whisk stops\" -12 st: servo; stops at 28.75"
+  },
+  {
+   "name": "arm_creak",
+   "file": "audio/sfx/prep/arm_creak.wav",
+   "at": 27.395,
+   "offset": 0,
+   "dur": 1.35,
+   "gain_db": -13.5,
+   "fade_in": 0.0,
+   "fade_out": 0.02,
+   "pan": 0.0,
+   "rate": 0.5,
+   "_level": {
+    "mode": "I",
+    "measured": -15.5,
+    "target": -29.0
+   },
+   "note": "Mixkit \"Metallic sword scrape\" -12 st: metal creak; stops at 28.75"
+  },
+  {
+   "name": "arm_hydraulic",
+   "file": "audio/sfx/prep/arm_hydraulic.wav",
+   "at": 28.045,
+   "offset": 0,
+   "dur": 0.94,
+   "gain_db": -10.6,
+   "fade_in": 0.0,
+   "fade_out": 0.02,
+   "pan": 0.0,
+   "rate": 0.5,
+   "_level": {
+    "mode": "I",
+    "measured": -15.4,
+    "target": -26.0
+   },
+   "note": "Mixkit \"Air zoom vacuum\" -12 st: hydraulic hiss / downwash swelling into the touchdown, hard stop 28.99"
+  },
+  {
+   "name": "touchdown_crackle_swell",
+   "file": "audio/sfx/prep/touchdown_crackle_swell.wav",
+   "at": 28.49,
+   "offset": 0,
+   "dur": null,
+   "gain_db": 15.33,
+   "fade_in": 0.0,
+   "fade_out": 0.0,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -46.33,
+    "target": -31.0
+   },
+   "note": "vinyl surface noise (the 0.00 bed) reversed, exponential swell into 28.995"
+  },
+  {
+   "name": "touchdown_needle",
+   "file": "audio/sfx/prep/needle_drop.wav",
+   "at": 28.993,
+   "offset": 0,
+   "dur": 0.5,
+   "gain_db": -15.56,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "pan": 0.0,
+   "rate": 0.5,
+   "_level": {
+    "mode": "peak",
+    "measured": -2.44,
+    "target": -18.0
+   },
+   "note": "the 0.00 needle-drop file, -12 st"
+  },
+  {
+   "name": "touchdown_sub_kick",
+   "file": "audio/sfx/prep/touchdown_sub_kick.wav",
+   "at": 28.9915,
+   "offset": 0,
+   "dur": 0.5035,
+   "gain_db": -18.28,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "abs",
+    "measured": 0.0,
+    "target": 0.0
+   },
+   "note": "Mixkit \"Drum bass hit\" (Eb1 sub drum): doubles the final-hit kick (polarity/time aligned), hard cut at 29.5",
+   "_align": {
+    "cue": "touchdown_sub_kick",
+    "t0": 29.0,
+    "polarity": -1,
+    "nudge_ms": -2.5,
+    "base_low150": -16.47,
+    "layer_low150": -23.33,
+    "power_sum": -15.65,
+    "as_was": -16.97,
+    "aligned": -14.57,
+    "base_best50": -14.03,
+    "aligned_best50": -12.62
+   }
+  },
+  {
+   "name": "touchdown_boom",
+   "file": "audio/sfx/prep/touchdown_boom.wav",
+   "at": 29.00006,
+   "offset": 0,
+   "dur": 0.49494,
+   "gain_db": -10.75,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "pan": 0.0,
+   "rate": 0.840896,
+   "_level": {
+    "mode": "hit",
+    "measured": -8.25,
+    "target": -19.0
+   },
+   "note": "sub boom -3 st (single-channel feed, polarity/time aligned to the kick + sub drum), hard cut at 29.5",
+   "_align": {
+    "cue": "touchdown_boom",
+    "t0": 29.0,
+    "polarity": -1,
+    "nudge_ms": 0.25,
+    "base_low150": -14.57,
+    "layer_low150": -24.46,
+    "power_sum": -14.14,
+    "as_was": -15.06,
+    "aligned": -13.38,
+    "base_best50": -12.62,
+    "aligned_best50": -11.75
+   }
+  },
+  {
+   "name": "touchdown_sand",
+   "file": "audio/sfx/prep/touchdown_sand.wav",
+   "at": 28.994,
+   "offset": 0,
+   "dur": 0.499,
+   "gain_db": -7.32,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "pan": 0.0,
+   "rate": 1.0,
+   "_level": {
+    "mode": "hit",
+    "measured": -19.68,
+    "target": -27.0
+   },
+   "note": "sand burst (HPF 140), hard cut at 29.5"
+  },
+  {
+   "name": "touchdown_grit",
+   "file": "audio/sfx/prep/drop_grit.wav",
+   "at": 29.024,
+   "offset": 0,
+   "dur": 0.46,
+   "gain_db": -15.19,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "pan": 0.35,
+   "rate": 1.0,
+   "_level": {
+    "mode": "peak",
+    "measured": -0.81,
+    "target": -16.0
+   }
+  }
+ ],
+ "duck": {
+  "enabled": false
+ },
+ "master": {
+  "lufs": -14,
+  "tp": -1.0
+ },
+ "note": "Generated by audio/scripts/build_cues.py. All SFX are pre-trimmed in audio/sfx/prep (offset always 0); rate = 2^(semitones/12) pitch-down via asetrate. Gains are measured on the prepared clip against the per-cue target in _level (mode abs = set directly). _align = polarity/time alignment of the sub layers to the kick."
+}

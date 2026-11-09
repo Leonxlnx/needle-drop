@@ -1,0 +1,186 @@
+{
+ "source": "audio/music/mixkit/mixkit_1008.mp3",
+ "layer": "audio/music/mixkit/mixkit_677.mp3",
+ "brass": "audio/sfx/mixkit/mixkit_sfx_2285.wav",
+ "bpm": 120.0,
+ "key": "Eb minor (bass/mid chroma peak D#; stabs Eb5 / Bb4 power chords, rubberband formant-preserved)",
+ "duck": "Pitbull track above 150 Hz only: -3 dB 17.998-18.5 (+150 ms cosine recovery) and -4.5 dB 28.998-29.5; layers never ducked; in audio/_work/music_ducked.wav (mix input) only",
+ "vacuum": "lift HPF 30->300 Hz over 28.25-28.75, music silent 28.75-28.998",
+ "low_shelf": "Pitbull below ~120 Hz (zero-phase): 0 dB to 18.6, -1.5 dB 18.9-25.9, -3.5 dB 26.0-28.9 (lift, +2 dB overall), -2.5 dB final hit (its sub comes from the touchdown boom)",
+ "grid_offset_s": -0.00031249999999261036,
+ "src_drop_transient": 73.99968750000001,
+ "hit_transient": 58.008375,
+ "epical_rate": 0.9972,
+ "brass_chop_s": 0.6902291666666667,
+ "normalise_gain_db": -0.8067429526750085,
+ "segments": [
+  {
+   "label": "intro filtered (src 0-6)",
+   "out": [
+    0.0,
+    5.995
+   ],
+   "src_start": -0.0003,
+   "rate": 1.0,
+   "fx": "lowpass=f=650,lowpass=f=650",
+   "gain_db": -4.0,
+   "gain_expr": "",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "intro dry (filter opening)",
+   "out": [
+    5.745,
+    5.995
+   ],
+   "src_start": 5.7497,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": 0.0,
+   "gain_expr": "",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "groove A (src 18-24)",
+   "out": [
+    5.945,
+    11.995
+   ],
+   "src_start": 17.9447,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": -2.0,
+   "gain_expr": "",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "build (src 12-17.5) + aecho + gain ramp + HPF sweep",
+   "out": [
+    11.945,
+    17.5
+   ],
+   "src_start": 11.9447,
+   "rate": 1.0,
+   "fx": "aecho + 30->250 Hz HPF sweep 16.0-17.5",
+   "gain_db": 0.0,
+   "gain_expr": "volume='pow(10,(2.5+3.5*min(1,t/5.5))/20)':eval=frame",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "DROP (src 74-82)",
+   "out": [
+    17.998,
+    25.995
+   ],
+   "src_start": 73.9977,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": 2.0,
+   "gain_expr": "",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "lift (src 90-92.75) + 30->300 Hz HPF sweep 28.25-28.75, cut at 28.75 (vacuum)",
+   "out": [
+    25.945,
+    28.75
+   ],
+   "src_start": 89.9447,
+   "rate": 1.0,
+   "fx": "alimiter (26.0 crash) + 30->300 Hz HPF sweep 28.25-28.75",
+   "gain_db": 2.0,
+   "gain_expr": "",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "final hit (drop downbeat slice)",
+   "out": [
+    28.998,
+    29.5
+   ],
+   "src_start": 73.9977,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": 2.0,
+   "gain_expr": "",
+   "input": "Pitbull",
+   "input_file": "audio/music/mixkit/mixkit_1008.mp3"
+  },
+  {
+   "label": "epical hit + percussion groove (src 58-66) @18-26",
+   "out": [
+    17.998,
+    25.995
+   ],
+   "src_start": 58.0064,
+   "rate": 0.9972,
+   "fx": "highpass=f=140,highpass=f=140",
+   "gain_db": 0.0,
+   "gain_expr": "volume='pow(10,(-5-4*min(1,max(0,(t-0.5)/0.5)))/20)':eval=frame",
+   "input": "Epical Drums 02",
+   "input_file": "audio/music/mixkit/mixkit_677.mp3"
+  },
+  {
+   "label": "epical hit @29",
+   "out": [
+    28.998,
+    29.5
+   ],
+   "src_start": 58.0064,
+   "rate": 0.9972,
+   "fx": "highpass=f=140,highpass=f=140,pan=stereo|c0=0.75*c0+0.25*c1|c1=0.25*c0+0.75*c1",
+   "gain_db": -9.0,
+   "gain_expr": "",
+   "input": "Epical Drums 02",
+   "input_file": "audio/music/mixkit/mixkit_677.mp3"
+  },
+  {
+   "label": "brass stab Eb5 @18.0",
+   "out": [
+    17.998,
+    18.618
+   ],
+   "src_start": 0.0,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": 1.56,
+   "gain_expr": "",
+   "input": "Orchestra triumphant trumpets (Eb5 stab)",
+   "input_file": "audio/_work/stab_eb5.wav"
+  },
+  {
+   "label": "brass stab Bb4 @24.0 (disc spin)",
+   "out": [
+    23.998,
+    24.618
+   ],
+   "src_start": 0.0,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": -0.94,
+   "gain_expr": "",
+   "input": "Orchestra triumphant trumpets (Bb4 stab)",
+   "input_file": "audio/_work/stab_bb4.wav"
+  },
+  {
+   "label": "brass stab Eb5 @29.0 (= the 18.0 stab level)",
+   "out": [
+    28.998,
+    29.5
+   ],
+   "src_start": 0.0,
+   "rate": 1.0,
+   "fx": "",
+   "gain_db": 1.56,
+   "gain_expr": "",
+   "input": "Orchestra triumphant trumpets (Eb5 stab)",
+   "input_file": "audio/_work/stab_eb5.wav"
+  }
+ ]
+}
